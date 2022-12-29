@@ -1,0 +1,14 @@
+
+--- collected at 2022-12-02 16:12:52 UTC on version 9.25 (925) ---
+
+org.bitcoinj.core.ProtocolException: Received Ping before version handshake is complete.
+	at org.bitcoinj.core.Peer.processMessage(Peer.java:449)
+	at org.bitcoinj.core.PeerSocketHandler.receiveBytes(PeerSocketHandler.java:187)
+	at org.bitcoinj.net.ConnectionHandler.handleKey(ConnectionHandler.java:239)
+	at org.bitcoinj.net.NioClientManager.handleKey(NioClientManager.java:86)
+	at org.bitcoinj.net.NioClientManager.run(NioClientManager.java:122)
+	at com.google.common.util.concurrent.AbstractExecutionThreadService$1$2.run(AbstractExecutionThreadService.java:66)
+	at com.google.common.util.concurrent.Callables.lambda$threadRenaming$3(Callables.java:103)
+	at com.google.common.util.concurrent.-$$Lambda$Callables$1F9-lT0KuVPV932nT5WvvDRlVPk.run(Unknown Source:4)
+	at org.bitcoinj.utils.ContextPropagatingThreadFactory$1.run(ContextPropagatingThreadFactory.java:50)
+	at java.lang.Thread.run(Thread.java:923)

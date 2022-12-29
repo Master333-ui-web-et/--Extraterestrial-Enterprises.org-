@@ -1,0 +1,152 @@
+08:42:48 [main] Context - Creating bitcoinj 0.16.2 context.
+08:42:49 [main] WalletApplication - === starting app using flavor: prod, build type: release, network: org.bitcoin.production
+08:42:49 [main] Bluetooth - Problem determining Bluetooth MAC via official API
+java.lang.SecurityException: Need android.permission.BLUETOOTH_CONNECT permission for android.content.AttributionSource@f12ec10c: getAddress
+	at android.os.Parcel.createExceptionOrNull(Parcel.java:2442)
+	at android.os.Parcel.createException(Parcel.java:2426)
+	at android.os.Parcel.readException(Parcel.java:2409)
+	at android.os.Parcel.readException(Parcel.java:2351)
+	at android.bluetooth.IBluetoothManager$Stub$Proxy.getAddress(IBluetoothManager.java:789)
+	at android.bluetooth.BluetoothAdapter.getAddress(BluetoothAdapter.java:1373)
+	at de.schildbach.wallet.util.Bluetooth.getAddress(Bluetooth.java:56)
+	at de.schildbach.wallet.WalletApplication.onCreate(WalletApplication.java:126)
+	at android.app.Instrumentation.callApplicationOnCreate(Instrumentation.java:1226)
+	at android.app.ActivityThread.handleBindApplication(ActivityThread.java:7044)
+	at android.app.ActivityThread.access$1800(ActivityThread.java:254)
+	at android.app.ActivityThread$H.handleMessage(ActivityThread.java:2184)
+	at android.os.Handler.dispatchMessage(Handler.java:106)
+	at android.os.Looper.loopOnce(Looper.java:233)
+	at android.os.Looper.loop(Looper.java:344)
+	at android.app.ActivityThread.main(ActivityThread.java:8210)
+	at java.lang.reflect.Method.invoke(Native Method)
+	at com.android.internal.os.RuntimeInit$MethodAndArgsCaller.run(RuntimeInit.java:584)
+	at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:1034)
+Caused by: android.os.RemoteException: Remote stack trace:
+	at com.android.server.BluetoothManagerService.checkPermissionForDataDelivery(BluetoothManagerService.java:3621)
+	at com.android.server.BluetoothManagerService.checkConnectPermissionForDataDelivery(BluetoothManagerService.java:3639)
+	at com.android.server.BluetoothManagerService.getAddress(BluetoothManagerService.java:1923)
+	at android.bluetooth.IBluetoothManager$Stub.onTransact(IBluetoothManager.java:373)
+	at com.android.server.BluetoothManagerService.onTransact(BluetoothManagerService.java:3657)
+
+08:42:49 [main] Bluetooth - Problem determining Bluetooth MAC via reflection
+java.lang.reflect.InvocationTargetException: null
+	at java.lang.reflect.Method.invoke(Native Method)
+	at de.schildbach.wallet.util.Bluetooth.getAddress(Bluetooth.java:70)
+	at de.schildbach.wallet.WalletApplication.onCreate(WalletApplication.java:126)
+	at android.app.Instrumentation.callApplicationOnCreate(Instrumentation.java:1226)
+	at android.app.ActivityThread.handleBindApplication(ActivityThread.java:7044)
+	at android.app.ActivityThread.access$1800(ActivityThread.java:254)
+	at android.app.ActivityThread$H.handleMessage(ActivityThread.java:2184)
+	at android.os.Handler.dispatchMessage(Handler.java:106)
+	at android.os.Looper.loopOnce(Looper.java:233)
+	at android.os.Looper.loop(Looper.java:344)
+	at android.app.ActivityThread.main(ActivityThread.java:8210)
+	at java.lang.reflect.Method.invoke(Native Method)
+	at com.android.internal.os.RuntimeInit$MethodAndArgsCaller.run(RuntimeInit.java:584)
+	at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:1034)
+Caused by: java.lang.SecurityException: Need android.permission.BLUETOOTH_CONNECT permission for android.content.AttributionSource@87199c8e: AdapterService getAddress
+	at android.os.Parcel.createExceptionOrNull(Parcel.java:2442)
+	at android.os.Parcel.createException(Parcel.java:2426)
+	at android.os.Parcel.readException(Parcel.java:2409)
+	at android.os.Parcel.readException(Parcel.java:2351)
+	at android.bluetooth.IBluetooth$Stub$Proxy.getAddress(IBluetooth.java:2658)
+	... 14 common frames omitted
+08:42:49 [main] WalletApplication - created notification channels, took 9.153 ms
+08:42:49 [main] Configuration - just being used - last used 5902 minutes ago
+08:42:49 [get wallet] WalletApplication - BIP39 wordlist loaded from: 'bip39-wordlist.txt', took 2.656 ms
+08:42:49 [main] ReportIssueDialogFragment - opening dialog de.schildbach.wallet.ui.ReportIssueDialogFragment
+08:42:49 [get wallet] LinuxSecureRandom - Secure randomness will be read from /dev/urandom only.
+08:42:50 [OkHttp https://api.coingecko.com/...] ExchangeRatesRepository - fetched exchange rates from https://api.coingecko.com/api/v3/exchange_rates, took 930.3 ms
+08:42:50 [query-versions] AlertDialogsViewModel - according to "https://wallet.schildbach.de/version?package=de.schildbach.wallet&installer=com.android.vending&sdk=31&current=100100" strongly recommended minimum app version is "926", recommended market is F_DROID
+08:42:50 [main] BlockchainService - attempting to start de.schildbach.wallet.service.BlockchainService in foreground
+08:42:50 [main] BlockchainService - acquiring WakeLock{5ddfec4 held=false, refCount=0}
+08:42:50 [main] BlockchainService - service start command: de.schildbach.wallet.service.cancel_coins_received
+08:42:50 [get wallet] WalletApplication - wallet loaded from: '/data/user/0/de.schildbach.wallet/files/wallet-protobuf', took 1.308 s
+08:42:50 [query-versions] AlertDialogsViewModel - all good, no alert dialog shown
+08:42:50 [main] AbstractBlockChain - chain head is at height 765618:
+ block: 
+   hash: 000000000000000000002c9116dbab48efe814085ea14f353018f147e20cd62b
+   version: 705691648 (BIP34, BIP66, BIP65)
+   previous block: 00000000000000000002522a15310738b92fb41b7ddd3bbef9d76a84ed10967e
+   time: 1669996553 (2022-12-02T15:55:53Z)
+   difficulty target (nBits): 386375189
+   nonce: 2313519674
+
+08:42:50 [main] BlockchainService - active network is up, metered, type: MOBILE, state: CONNECTED/CONNECTED, extraInfo: fast.metropcs.com
+08:42:50 [main] BlockchainService - creating org.bitcoinj.core.PeerGroup@34a69c1, sync mode: FULL
+08:42:50 [main] BlockchainService - trusted peers only – not adding any random nodes from the P2P network
+08:42:50 [main] BlockchainService - starting org.bitcoinj.core.PeerGroup@34a69c1 asynchronously
+08:42:50 [PeerGroup Thread] PeerGroup - Starting ...
+08:42:50 [main] BlockchainService - onTrimMemory(10) called
+08:42:50 [main] BlockchainService - active network is up, metered, type: MOBILE, state: CONNECTED/CONNECTED, extraInfo: fast.metropcs.com
+08:42:50 [main] BlockchainService - trusted peer '192.168.175.35' resolved to 192.168.175.35
+08:42:50 [PeerGroup Thread] PeerGroup - Peer discovery took 23.65 μs and returned 0 items from 0 discoverers
+08:42:50 [PeerGroup Thread] PeerGroup - Waiting 1002 ms before next connect attempt to [192.168.175.35]:8333
+08:42:50 [PeerGroup Thread] PeerGroup - Waiting 999 ms before next connect attempt to [192.168.175.35]:8333
+08:42:51 [main] BlockchainService - onTrimMemory(10) called
+08:42:51 [PeerGroup Thread] PeerGroup - Attempting connection to [192.168.175.35]:8333     (0 connected, 1 pending, 1 max)
+08:42:51 [PeerGroup Thread] PeerGroup - Peer discovery took 21.67 μs and returned 0 items from 0 discoverers
+08:42:59 [main] Bluetooth - Problem determining Bluetooth MAC via official API
+java.lang.SecurityException: Need android.permission.BLUETOOTH_CONNECT permission for android.content.AttributionSource@92473770: getAddress
+	at android.os.Parcel.createExceptionOrNull(Parcel.java:2442)
+	at android.os.Parcel.createException(Parcel.java:2426)
+	at android.os.Parcel.readException(Parcel.java:2409)
+	at android.os.Parcel.readException(Parcel.java:2351)
+	at android.bluetooth.IBluetoothManager$Stub$Proxy.getAddress(IBluetoothManager.java:789)
+	at android.bluetooth.BluetoothAdapter.getAddress(BluetoothAdapter.java:1373)
+	at de.schildbach.wallet.util.Bluetooth.getAddress(Bluetooth.java:56)
+	at de.schildbach.wallet.ui.ReportIssueDialogFragment.bluetoothMac(ReportIssueDialogFragment.java:359)
+	at de.schildbach.wallet.ui.ReportIssueDialogFragment.appendDeviceInfo(ReportIssueDialogFragment.java:351)
+	at de.schildbach.wallet.ui.ReportIssueDialogFragment.access$300(ReportIssueDialogFragment.java:69)
+	at de.schildbach.wallet.ui.ReportIssueDialogFragment$1.collectDeviceInfo(ReportIssueDialogFragment.java:161)
+	at de.schildbach.wallet.ui.ReportIssueDialogBuilder.onClick(ReportIssueDialogBuilder.java:128)
+	at com.android.internal.app.AlertController$ButtonHandler.handleMessage(AlertController.java:191)
+	at android.os.Handler.dispatchMessage(Handler.java:106)
+	at android.os.Looper.loopOnce(Looper.java:233)
+	at android.os.Looper.loop(Looper.java:344)
+	at android.app.ActivityThread.main(ActivityThread.java:8210)
+	at java.lang.reflect.Method.invoke(Native Method)
+	at com.android.internal.os.RuntimeInit$MethodAndArgsCaller.run(RuntimeInit.java:584)
+	at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:1034)
+Caused by: android.os.RemoteException: Remote stack trace:
+	at com.android.server.BluetoothManagerService.checkPermissionForDataDelivery(BluetoothManagerService.java:3621)
+	at com.android.server.BluetoothManagerService.checkConnectPermissionForDataDelivery(BluetoothManagerService.java:3639)
+	at com.android.server.BluetoothManagerService.getAddress(BluetoothManagerService.java:1923)
+	at android.bluetooth.IBluetoothManager$Stub.onTransact(IBluetoothManager.java:373)
+	at com.android.server.BluetoothManagerService.onTransact(BluetoothManagerService.java:3657)
+
+08:42:59 [main] Bluetooth - Problem determining Bluetooth MAC via reflection
+java.lang.reflect.InvocationTargetException: null
+	at java.lang.reflect.Method.invoke(Native Method)
+	at de.schildbach.wallet.util.Bluetooth.getAddress(Bluetooth.java:70)
+	at de.schildbach.wallet.ui.ReportIssueDialogFragment.bluetoothMac(ReportIssueDialogFragment.java:359)
+	at de.schildbach.wallet.ui.ReportIssueDialogFragment.appendDeviceInfo(ReportIssueDialogFragment.java:351)
+	at de.schildbach.wallet.ui.ReportIssueDialogFragment.access$300(ReportIssueDialogFragment.java:69)
+	at de.schildbach.wallet.ui.ReportIssueDialogFragment$1.collectDeviceInfo(ReportIssueDialogFragment.java:161)
+	at de.schildbach.wallet.ui.ReportIssueDialogBuilder.onClick(ReportIssueDialogBuilder.java:128)
+	at com.android.internal.app.AlertController$ButtonHandler.handleMessage(AlertController.java:191)
+	at android.os.Handler.dispatchMessage(Handler.java:106)
+	at android.os.Looper.loopOnce(Looper.java:233)
+	at android.os.Looper.loop(Looper.java:344)
+	at android.app.ActivityThread.main(ActivityThread.java:8210)
+	at java.lang.reflect.Method.invoke(Native Method)
+	at com.android.internal.os.RuntimeInit$MethodAndArgsCaller.run(RuntimeInit.java:584)
+	at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:1034)
+Caused by: java.lang.SecurityException: Need android.permission.BLUETOOTH_CONNECT permission for android.content.AttributionSource@87199c8e: AdapterService getAddress
+	at android.os.Parcel.createExceptionOrNull(Parcel.java:2442)
+	at android.os.Parcel.createException(Parcel.java:2426)
+	at android.os.Parcel.readException(Parcel.java:2409)
+	at android.os.Parcel.readException(Parcel.java:2351)
+	at android.bluetooth.IBluetooth$Stub$Proxy.getAddress(IBluetooth.java:2658)
+	... 15 common frames omitted
+08:42:59 [main] ReportIssueDialogBuilder - invoked chooser for sending issue report
+08:43:02 [main] BlockchainService - onTrimMemory(10) called
+08:43:02 [main] BlockchainService - onTrimMemory(15) called
+08:43:03 [main] BlockchainService - onTrimMemory(10) called
+08:43:04 [main] BlockchainService - onTrimMemory(15) called
+08:43:05 [main] BlockchainService - onTrimMemory(10) called
+08:43:06 [AbstractTimeoutHandler timeouts] PeerSocketHandler - [192.168.175.35]:8333: Timed out
+08:43:06 [AbstractTimeoutHandler timeouts] PeerGroup - [192.168.175.35]:8333: Peer died      (0 connected, 0 pending, 1 max)
+08:43:06 [PeerGroup Thread] PeerGroup - Peer discovery took 31.04 μs and returned 0 items from 0 discoverers
+08:43:06 [PeerGroup Thread] PeerGroup - Waiting 3377 ms before next connect attempt to [192.168.175.35]:8333
+08:43:10 [PeerGroup Thread] PeerGroup - Attempting connection to [192.168.175.35]:8333     (0 connected, 1 pending, 1 max)
