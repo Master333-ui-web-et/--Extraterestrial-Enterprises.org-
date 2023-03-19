@@ -1,9 +1,9 @@
 ---
 name: Feature request
 about: Suggest an idea for this project
-title: ''
-labels: ''
-assignees: ''
+title: 'ETCBI.bitcoin@master333-ui-web'
+labels: 'BTCUSD'
+assignees: 'chais fitzwater'
 
 ---
 

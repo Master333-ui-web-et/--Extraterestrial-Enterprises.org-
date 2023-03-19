@@ -1,0 +1,54 @@
+Open Source Libraries Androld is Dunt using open source
+ h-Androld Coil
+ rawaoe
+ JSoup. Java FiMFaisel Lingver
+ Android Open Source Fo
+ Apollo GraphQL Client
+ COpyrignt (c) 2020 Meteor bevelqpment Group.
+ of this sof tware and associated documentatio to use, copy, modify, merge, publish, distri
+ urnisnea to do sO, SuDject to ne TOL1OWLn8
+ copieso substanti. portions of the Sof twa
+ THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WA
+ FITNESS FOR A PARTICULAR PURPOSE AND NONINFR
+ jsoup Java HiML Parser
+ 09 2020 Jonathan Hedley (h Dermi ssion: heret ranted free of charge
+ n is
+ n the Software without restriction , includi copies of the Software, and to permit person
+ oples or Substantlal portions of the Softwa IMPLIED. INCLUDING BUT NOT LIMITED TO THE WA AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR A OUT OF OR IN CONNECTION WITH THE SOFTWARE OR
+ OkHttp
+ LOpyright 2019 Square, Inc. Licensed under r le exeptin complian. You may obtain a copy of the License at P . 3pacne. Org/11censes/LICENSE -2. distributed under the License is distributed See the License for the specific language go
+ ppAuth-Android
+ Apache ttp://www. ache.org/1
+ EMS AND CONDL LONS FOR USE, REPRODUCTION,
+ erntlons
+ d distribution as defined by Sections1 icensor " shall mean the copyrignt ownen
+ antro thhatenttEtheono rertion or manaremdnt of Chentituu utstanding shares, or (iii) beneficial o ".(or "Your ") shall mean an individua rei
+ Source" form cha11 farrod tfo ource, and configuration files. tware sou biect" form shall mean any form resuT t limited to compiled object code, gene lark" he wa
+ opyright notice that is included in a
+ orm, that is based on (or derived from)
+ E ds a wnole, an original work o
+ Contribution" shall mean any work of aut that Work or Derivative Works thereof, y navldual or Legal Entity autho erbal, or
+ nd issue tracking syster that are mana cluding communication that is conspicuo
+ n enent of whom a Contt rk , py 18ht License. Subject to th orldwidle non-exclusive. no-charge, roya ublicly display, publiqiy per form, subli cance
+ ant of Patent Lice nv1 iveno-charge. rova se, offer to sell, sell, import , 'and oth such Contributor that are necessarily L e WOrk toWnich such contrlbution( ra Contrihution incarnarated within the ranted to You under this License for tne ddte suc gatlon1s TIIed
+ Jork or Derivative Oseeo aY eet the ToL10WnE COna1tlons Derivative works a copy of this Licen Statine that Yahnee t ou must rats i .
+ ) Yo
+ that You distrbute heSor ce f he Derivative worksand P d f the Work includes a "NOTICE" text
+ nciude a readable copy ot the attib
+ the fo1lowing nlaces wi thin a Cumentation. if provided along y herever such third-party notices nor not the License ou n at such additidnal attrihtian nfi
+ ay provide additional or dïfferent licen or any such Derivative Works as a whole.
+ nditionsS S ated in this License.
+ ny Contribution intentionallv submitted
+ his License, without any additional term he terms of any separate license agreeme
+ radem rks. This .Tant
+ except a r red farreasnah e and
+ equires
+ greed to in writing, Licensor provides t
+ OUWARRAN IESRCONDONSO ANYK
+ ARTICULAR PURPOSEYarc L isks associated with Your exercise of pe . Limitation of Liability. In no event and urea Dy aPpLicable la (Such. ncidentalrCanseniaaue at ork (including but not 1imited to damage her commercial damages or losses), even
+ chara f ntanre af YOu icense. However. 'in acceoting citch ohli any other Contributor, and onl ly if You rred by, or claims asserted agains
+ ND O
+ AndroidsVG
+ Copyrgnt 2013-2018 ave Rock ortware Ltd
+ rreAPache Lcense Version2 may obtain a copy of the License at http://www.apache .org/1icenses/workspaces/--Extraterestrial-Enterprises.org-/roaming-profile/rescache
+ 
