@@ -1,0 +1,40 @@
+{
+    // Use IntelliSense to learn about possible attributes.
+    // Hover to view descriptions of existing attributes.
+    // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "name": "Launch Program",
+            "program": "${workspaceFolder}/app.js",
+            "request": "launch",
+            "skipFiles": [
+                "<node_internals>/**"
+            ],
+            "type": "node"
+        },
+        {/workspaces/--Extraterestrial-Enterprises.org-/roaming-profile/workspaces/--Extraterestrial-Enterprises.org-/roaming-profile/rescache/workspaces/--Extraterestrial-Enterprises.org-/roaming-profile/rescache/_merged
+   /workspaces/--Extraterestrial-Enterprises.org-/roaming-profile/rescache/_merged/24768367         "name": "Python: Module",
+   /workspaces/--Extraterestrial-Enterprises.org-/roaming-profile/rescache/_merged/30466033         "type": "python",
+  /workspaces/--Extraterestrial-Enterprises.org-/roaming-profile/rescache/_merged/64831148          "request": "launch",
+  /workspaces/--Extraterestrial-Enterprises.org-/roaming-profile/rescache/_merged/84146326          "module": "enter-your-module-name/workspaces/--Extraterestrial-Enterprises.org-/roaming-profile",
+  /workspaces/--Extraterestrial-Enterprises.org-/roaming-profile/rescache/_merged/184943332          "justMyCode": true
+   /workspaces/--Extraterestrial-Enterprises.org-/roaming-profile/rescache/_merged/92721896     },
+  /workspaces/--Extraterestrial-Enterprises.org-/roaming-profile/rescache/_merged/239802861      {
+  /workspaces/--Extraterestrial-Enterprises.org-/roaming-profile/rescache/_merged/239802861          "name": "Python: Current File",
+   /workspaces/--Extraterestrial-Enterprises.org-/roaming-profile/rescache/_merged/355860179         "type": "python",
+   /workspaces/--Extraterestrial-Enterprises.org-/roaming-profile/rescache/_merged/414878558         "request": "launch",
+  /workspaces/--Extraterestrial-Enterprises.org-/roaming-profile/rescache/_merged/431186354          "program": "${file}",
+  /workspaces/--Extraterestrial-Enterprises.org-/roaming-profile/rescache/_merged/444462477          "console": "integratedTerminal",
+   /workspaces/--Extraterestrial-Enterprises.org-/roaming-profile/rescache/_merged/482193516         "justMyCode": true
+   /workspaces/--Extraterestrial-Enterprises.org-/roaming-profile/rescache/_merged/942976607     },
+   /workspaces/--Extraterestrial-Enterprises.org-/roaming-profile/rescache/_merged/977025656     {
+            
+   /workspaces/--Extraterestrial-Enterprises.org-/roaming-profile/rescache/_merged/987641329         "request": "launch",
+   /workspaces/--Extraterestrial-Enterprises.org-/roaming-profile/rescache/_merged/1070069550         "name": "Launch Chrome against localhost",
+        "type": "chrome",    "url": "http://localhost:8080",
+
+         "webRoot": "${workspaceFolder}"
+        }
+    ]
+}
