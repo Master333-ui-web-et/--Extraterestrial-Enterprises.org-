@@ -1,0 +1,12 @@
+{
+  "image": "mcr.microsoft.com/devcontainers/universal:2",
+  "features": {
+     "blockchain.create.workflow":{ ['etcbi.inc'].("jsonc")},
+     "blockchain.wallet.create" :{ ['etcbi.wallet.source.input'],(".html.jsonc") }
+        "actions": 
+  ".html"
+  ".https"
+  ".ssm"
+  ".automate/script.workflow"
+  }
+}
