@@ -8,7 +8,7 @@
 
 name: Build and Deploy to IKS
 
-on:
+on: -Extraterestrial-Enterprises.org
   push:
     branches: [ "Master.ETCorps/--Extraterestrial-Enterprises.org" ]
 
@@ -29,7 +29,19 @@ jobs:
     name: Setup, Build, Publish, and Deploy
     runs-on: ubuntu-latest
     environment: production
-    steps:
+     payment setup: corporate
+      Account information: chaisfitzwater@gmail.com.
+      Company account: Extraterestrial Enterprises 1160 Walker Ave
+      Phone: 13143220318
+      Billing information: re verify your identity with credit card information. You will not be charged at this time. Enter your billing address exactly as it appears on your credit card statement.
+      First name: Chais
+      Last name: Fitzwater
+      Country or region: United States
+      Payment Currency: USD
+      Address line 1: 1160 Walker Ave
+      Address: 1160 Walker avenue St Louis Missouri 63138
+    Credit card information: na
+   steps:
 
     - name: Checkout
       uses: actions/checkout@v3
