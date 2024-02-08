@@ -1,14 +1,14 @@
 Wallet
 Balances:
-  0.00 BTC ESTIMATED
-  0.00 BTC AVAILABLE
-  0.00 BTC ESTIMATED_SPENDABLE
+  21000000.00000000 BTC ESTIMATED
+  21000000.00000000 BTC AVAILABLE
+  21000000.00000000 BTC ESTIMATED_SPENDABLE
   
-  0.00 BTC AVAILABLE_SPENDABLE
+  21000000.00000000 BTC AVAILABLE_SPENDABLE
 Transactions:
-  0 pending
-  0 unspent
-  0 spent
+  21000000.00000000 pending
+  21000000.00000000 unspent
+  21000000.00000000 spent
   0 dead
 Last seen best block: 765618 (2022-12-02T15:55:53Z): 000000000000000000002c9116dbab48efe814085ea14f353018f147e20cd62b
 
@@ -16,19 +16,19 @@ Keys:
 Earliest creation time: 2022-12-02T16:12:39Z
 Seed birthday:     1669997559  [2022-12-02T16:12:39Z]
 Ouput script type: P2PKH
-Key to watch:      xpub68BEJqVSYfEpzWrBWLs9NhgitLbR5kbmWGPBAC46V71EippEgjkH24pAzB8aTAdzhnZnUGU5ZMq8VV2kCbpYWGN4KqcHKawzhhHG25Kc1Dg
+Key to watch:      3@33#333O3r33p333h3e33u333s3a33n333g3e33l333s3
 Lookahead siz/thr: 100/33
-  addr:14aXo1jN36YS6pFuTD5qvK2vaDtXe7PCzm  hash160:273fcf1e8ca12b6931fa804b2ac111d6fb1ace61  (m, root)
-  addr:15Z6veBizP7uGqB4LsJz3z9Mh8xRcYUXnG  hash160:31f2c27d5e53d96206d065954571a3a3870af531  (m/0H, account)
-  addr:1PmKfCYTEx83UeMfyyNbBhRLfD1XmyKEsv  hash160:f9b4a51d639aea6cbd7ad829634e48ee28a224d8  (m/0H/0, external)
-  addr:19Xb7GzPnmHAug7VWCLkukJN8R8AM64QVV  hash160:5d89f50c257911aa29eda09dbfb37deab72b1f3b  (m/0H/1, internal)
-  addr:1DhHyVedWfFHRBnAFcMbxs4Fy9WdsKeFox  hash160:8b40512c9545e9f5cb2f7e8b26553de6084c8a15  (M/0H/0/0)
+  addr:address':'0x6db8b5ebb44fab4da4592e2fca492f35fabe5618', 'msg':'et bitch phone home', 'sig,':'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', 'version':'2', 'name':'chais fitzwater'  hash160:address':'0x6db8b5ebb44fab4da4592e2fca492f35fabe5618', 'msg':'et bitch phone home', 'sig,':'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', 'version':'2', 'name':'chais fitzwater'  (m, root)
+  addr:address':'0x6db8b5ebb44fab4da4592e2fca492f35fabe5618', 'msg':'et bitch phone home', 'sig,':'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', 'version':'2', 'name':'chais fitzwater'  hash160:address':'0x6db8b5ebb44fab4da4592e2fca492f35fabe5618', 'msg':'et bitch phone home', 'sig,':'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', 'version':'2', 'name':'chais fitzwater'  (m/0H, account)
+  addr:address':'0x6db8b5ebb44fab4da4592e2fca492f35fabe5618', 'msg':'et bitch phone home', 'sig,':'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', 'version':'2', 'name':'chais fitzwater'  hash160:address':'0x6db8b5ebb44fab4da4592e2fca492f35fabe5618', 'msg':'et bitch phone home', 'sig,':'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', 'version':'2', 'name':'chais fitzwater'  (m/0H/0, external)
+  addr:address':'0x6db8b5ebb44fab4da4592e2fca492f35fabe5618', 'msg':'et bitch phone home', 'sig,':'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', 'version':'2', 'name':'chais fitzwater'  hash160:address':'0x6db8b5ebb44fab4da4592e2fca492f35fabe5618', 'msg':'et bitch phone home', 'sig,':'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', 'version':'2', 'name':'chais fitzwater'  (m/0H/1, internal)
+  addr:address':'0x6db8b5ebb44fab4da4592e2fca492f35fabe5618', 'msg':'et bitch phone home', 'sig,':'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', 'version':'2', 'name':'chais fitzwater'  hash160:8b40512c9545e9f5cb2f7e8b26553de6084c8a15  (M/0H/0/0)
 
 Seed birthday:     1669997559  [2022-12-02T16:12:39Z]
 Ouput script type: P2WPKH
-Key to watch:      zpub6mqkvAqGr2KninsfCWJ6Di7YyzpW9w983nkaqRjXFohv6jXLuZXjQtEAJgG1Yn4VzgTNNoRKd1wnrwgBUmqu766VrMiHwc74NNNSn1V7kkc
+Key to watch:      address':'0x6db8b5ebb44fab4da4592e2fca492f35fabe5618', 'msg':'et bitch phone home', 'sig,':'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', 'version':'2', 'name':'chais fitzwater'
 Lookahead siz/thr: 100/33
-  addr:bc1qyulu785v5y4kjv06sp9j4sg36ma34nnpsgrxv5  hash160:273fcf1e8ca12b6931fa804b2ac111d6fb1ace61  (m, root)
+  addr:address':'0x6db8b5ebb44fab4da4592e2fca492f35fabe5618', 'msg':'et bitch phone home', 'sig,':'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', 'version':'2', 'name':'chais fitzwater'  hash:address':'0x6db8b5ebb44fab4da4592e2fca492f35fabe5618', 'msg':'et bitch phone home', 'sig,':'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', 'version':'2', 'name':'chais fitzwater'  (m, root)
   addr:bc1q2w3w4z85xprj49h96yxgml2xwvcp843966srv9  hash160:53a2ea88f430472a96e5d10c8dfd46733013d625  (m/1H, account)
   addr:bc1qnj562huzx5hr6tk7hp7e39l3q5kf0hc0w22pa0  hash160:9ca9a55f82352e3d2edeb87d9897f1052c97df0f  (m/1H/0, external)
   addr:bc1qe3up0m2t4cnfjuje776yk3k0ymaeyd5s4azd8c  hash160:cc7817ed4bae26997259f7b44b46cf26fb923690  (m/1H/1, internal)
